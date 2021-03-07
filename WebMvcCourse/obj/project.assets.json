@@ -8916,11 +8916,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\gabri\\source\\repos\\WebMvcCourse\\WebMvcCourse\\WebMvcCourse.csproj",
+      "projectUniqueName": "C:\\Users\\gabri\\source\\repos\\CursoMvcCSharp\\WebMvcCourse\\WebMvcCourse.csproj",
       "projectName": "WebMvcCourse",
-      "projectPath": "C:\\Users\\gabri\\source\\repos\\WebMvcCourse\\WebMvcCourse\\WebMvcCourse.csproj",
+      "projectPath": "C:\\Users\\gabri\\source\\repos\\CursoMvcCSharp\\WebMvcCourse\\WebMvcCourse.csproj",
       "packagesPath": "C:\\Users\\gabri\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\gabri\\source\\repos\\WebMvcCourse\\WebMvcCourse\\obj\\",
+      "outputPath": "C:\\Users\\gabri\\source\\repos\\CursoMvcCSharp\\WebMvcCourse\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\gabri\\AppData\\Roaming\\NuGet\\NuGet.Config",

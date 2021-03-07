@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "VP/DhSA/qwW0U5QQyMV002IVKVsYkON803i7u/0STnT9CX5dUh9ce9hdYDcZ/a7FGL1/nMXyl+qOMJldZGPmmQ==",
+  "dgSpecHash": "qkIb98mSD7lsmKEkzQfT0EKXP3toCO154Ham0pW2S4UOfQiJvICxsuC8Qlinpm02Q/lXH5O2O4bBjIxRCl0Mrw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\gabri\\source\\repos\\WebMvcCourse\\WebMvcCourse\\WebMvcCourse.csproj",
+  "projectFilePath": "C:\\Users\\gabri\\source\\repos\\CursoMvcCSharp\\WebMvcCourse\\WebMvcCourse.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\gabri\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\gabri\\.nuget\\packages\\microsoft.aspnetcore.razor\\2.2.0\\microsoft.aspnetcore.razor.2.2.0.nupkg.sha512",
