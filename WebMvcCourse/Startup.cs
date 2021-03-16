@@ -5,6 +5,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using WebMvcCourse.Data;
+using WebMvcCourse.services;
 
 namespace WebMvcCourse
 {
@@ -31,6 +32,7 @@ namespace WebMvcCourse
                         Configuration.GetConnectionString("WebMvcCourseContext"),
                         builder => builder.MigrationsAssembly("WebMvcCourse")));
             services.AddScoped<SeedingService>();
+            services.AddScoped<SellerService>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
