@@ -1,4 +1,4 @@
-﻿@model WebMvcCourse.Models.Seller
+﻿@model WebMvcCourse.Models.ViewModels.SellerFormViewModel
 
 @{
     ViewData["Title"] = "Create";
@@ -13,20 +13,24 @@
     <div class="col-md-6">
         <form asp-action="Create">
             <div class="form-group">
-                <label asp-for="Name" class="custom-control-label"></label>
-                <input asp-for="Name" class="custom-control-label"/>
+                <label asp-for="Seller.Name" ></label>
+                <input asp-for="Seller.Name" />
             </div>
             <div class="form-group">
-                <label asp-for="Email" class="custom-control-label"></label>
-                <input asp-for="Email" class="custom-control-label"/>
+                <label asp-for="Seller.Email" ></label>
+                <input asp-for="Seller.Email" />
             </div>
             <div class="form-group">
-                <label asp-for="BirthDate" class="custom-control-label"></label>
-                <input asp-for="BirthDate" class="custom-control-label"/>
+                <label asp-for="Seller.BirthDate" ></label>
+                <input asp-for="Seller.BirthDate" />
             </div>
             <div class="form-group">
-                <label asp-for="BaseSalary" class="custom-control-label"></label>
-                <input asp-for="BaseSalary" class="custom-control-label"/>
+                <label asp-for="Seller.BaseSalary"></label>
+                <input asp-for="Seller.BaseSalary" />
+            </div>
+            <div class="form-group">
+                <label asp-for="Seller.DepartmentId"></label>
+                <select asp-for="Seller.DepartmentId" asp-items="@(new SelectList(Model.Departments , "Id" , "Name"))"  ></select>
             </div>
             <div class="form-group">
                 <input type="submit" value="Create" class="btn btn-primary" />
