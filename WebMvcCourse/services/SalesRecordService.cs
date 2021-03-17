@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore;
 using WebMvcCourse.Data;
 using WebMvcCourse.Models;
 
-namespace SalesWebMvc.Services
+namespace WebMvcCourse.Services
 {
     public class SalesRecordService
     {
@@ -35,7 +35,7 @@ namespace SalesWebMvc.Services
                 .ToListAsync();
         }
 
-        public async Task<List<IGrouping<Department,SalesRecord>>> FindByDateGroupingAsync(DateTime? minDate, DateTime? maxDate)
+        public async Task<List<IGrouping<Department,SalesRecord>>> FindByDateGroupingAsync( DateTime? minDate, DateTime? maxDate)
         {
             var result = from obj in _context.SalesRecords select obj;
             if (minDate.HasValue)

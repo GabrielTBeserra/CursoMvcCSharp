@@ -7,9 +7,9 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using SalesWebMvc.Services;
 using WebMvcCourse.Data;
 using WebMvcCourse.services;
+using WebMvcCourse.Services;
 
 namespace WebMvcCourse
 {
